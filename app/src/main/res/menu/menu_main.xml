@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.main.MainActivity">
+
+    <item
+        android:id="@+id/action_notice"
+        android:icon="@drawable/ic_actionbar_notice"
+        android:title="@string/action_notice"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_follow"
+        android:icon="@drawable/theme_add"
+        android:title="@string/action_theme_addOrRemove"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_switch_model"
+        android:title="@string/action_switch_night"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_config"
+        android:title="@string/action_config"
+        app:showAsAction="never"/>
+</menu>

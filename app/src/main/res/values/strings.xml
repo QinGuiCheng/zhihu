@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Zhihu</string>
+
+    <string name="action_notice">通知</string>
+    <string name="action_switch_day">日间模式</string>
+    <string name="action_switch_night">夜间模式</string>
+    <string name="action_config">设置选项</string>
+    <string name="action_theme_addOrRemove">关注主题日报</string>
+
+    <string name="action_login">请登录</string>
+    <string name="action_favorites">我的收藏</string>
+    <string name="action_download_caches">离线下载</string>
+
+    <string name="action_share">分享</string>
+    <string name="action_collect">收藏</string>
+    <string name="action_comment">评论</string>
+    <string name="action_praise">点赞</string>
+
+    <string name="topic_list_home">首页</string>
+
+    <string name="login_with_weibo">使用微博登录</string>
+    <string name="sina_weibo">新浪微博</string>
+    <string name="tencent_weibo">腾讯微博</string>
+    <string name="defination">知乎日报不会未经同意通过你的微博账号发布任何信息</string>
+
+    <string name="editor_in_chief">主编</string>
+</resources>

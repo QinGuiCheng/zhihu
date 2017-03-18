@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/space_8"
+              android:background="?attr/navHeaderColor"
+              tools:background="@color/colorLightBlue"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginBottom="@dimen/space_25"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="@dimen/space_10"
+            android:src="@drawable/comment_avatar"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize_14"
+            android:textColor="?attr/navMenuTextColor"
+            tools:textColor="@android:color/white"
+            android:text="@string/action_login"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/space_16"
+        android:gravity="center_vertical" >
+
+        <!--<ImageView-->
+            <!--android:id="@+id/icon_favorites"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@drawable/favorites"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/my_favorites_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="@dimen/space_16"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/action_favorites"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="@dimen/textSize_12"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/icon_download"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@drawable/download"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/download_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingLeft="@dimen/space_16"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/action_download_caches"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="@dimen/textSize_12"/>-->
+
+        <Button
+            android:id="@+id/action_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/favorites"
+            android:drawablePadding="@dimen/space_negative_26"
+            android:text="@string/action_favorites"
+            android:textColor="?attr/navMenuTextColor"
+            tools:textColor="@color/colorWhite"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/action_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/download"
+            android:drawablePadding="@dimen/space_negative_26"
+            android:text="@string/action_download_caches"
+            android:textColor="?attr/navMenuTextColor"
+            tools:textColor="@color/colorWhite"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

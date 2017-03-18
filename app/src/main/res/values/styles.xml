@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DayTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorDayPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDayPrimaryDark</item>
+        <item name="colorAccent">@color/colorDayAccent</item>
+        <item name="android:windowBackground">@color/colorDayWindowBackground</item>
+
+        <item name="toolbarColor">@color/colorDayPrimary</item>
+        <item name="cardViewColor">@color/colorDayCardView</item>
+        <item name="cardViewTextUnselColor">@color/colorDayCardViewTextUnsel</item>
+        <item name="cardViewTextSelColor">@color/colorDayCardViewTextSel</item>
+        <item name="navHeaderColor">@color/colorDayNavHeader</item>
+        <!--<item name="navMenuItemDaySelector">@drawable/drawer_menu_item_day_selector</item>-->
+        <item name="navMenuTextColor">@color/colorDayNavMenuText</item>
+        <item name="backgroundColor">@color/colorDayWindowBackground</item>
+        <!--<item name="bannerTitleColor">@color/colorDayBannerTitle</item>-->
+
+    </style>
+
+    <style name="NightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorNightPrimary</item>
+        <item name="colorPrimaryDark">@color/colorNightPrimaryDark</item>
+        <item name="colorAccent">@color/colorNightAccent</item>
+        <item name="android:windowBackground">@color/colorNightWindowBackground</item>
+
+        <item name="toolbarColor">@color/colorNightPrimary</item>
+        <item name="cardViewColor">@color/colorNightCardView</item>
+        <item name="cardViewTextUnselColor">@color/colorNightCardViewTextUnsel</item>
+        <item name="cardViewTextSelColor">@color/colorNightCardViewTextSel</item>
+        <item name="navHeaderColor">@color/colorNightNavHeader</item>
+        <!--<item name="navMenuItemNightSelector">@drawable/drawer_menu_item_night_selector</item>-->
+        <item name="navMenuTextColor">@color/colorNightNavMenuText</item>
+        <item name="backgroundColor">@color/colorNightWindowBackground</item>
+        
+        <!--<item name="bannerTitleColor">@color/colorNightBannerTitle</item>-->
+    </style>
+
+    <style name="BaseAppThemeDark" parent="Theme.AppCompat.NoActionBar">
+        
+    </style>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:icon="@drawable/share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_collect"
+        android:title="@string/action_collect"
+        android:icon="@drawable/collect"
+        app:showAsAction="always"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <item
+        android:id="@+id/action_comment"
+        android:title="@string/action_comment"
+        app:actionProviderClass="com.yiyi.zhihu.ui.widget.badgeView.ActionProviderView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_praise"
+        android:title="@string/action_praise"
+        app:actionProviderClass="com.yiyi.zhihu.ui.widget.badgeView.ActionProviderView"
+        app:showAsAction="always" />
+
+</menu>

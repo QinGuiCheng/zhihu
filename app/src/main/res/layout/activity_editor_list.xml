@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_editor_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yiyi.zhihu.ui.editor.EditorListActivity">
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/common_toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/space_15"
+        android:paddingRight="@dimen/space_15"
+        android:layout_below="@+id/toolBar" />
+
+</RelativeLayout>

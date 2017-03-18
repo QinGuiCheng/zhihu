@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="colorLightBlue">#0099FF</color>
+    <color name="colorLightGray">#E0E0E0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDarkGray">#7E736B</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorlittleGray">#C7C7C7</color>
+    <color name="colorSplashBackground">#17181A</color>
+    <color name="colorDefination">#00FFFF</color>
+    
+    <color name="colorDayPrimary">#00A2ED</color>
+    <color name="colorDayPrimaryDark">#008FD2</color>
+    <color name="colorDayAccent">#008FD2</color>
+    <color name="colorDayWindowBackground">#F3F3F3</color>
+    <color name="colorDayCardView">@color/colorWhite</color>
+    <color name="colorDayCardViewTextUnsel">@color/colorBlack</color>
+    <color name="colorDayCardViewTextSel">#B4B4B4</color>
+    <color name="colorDayNavHeader">@color/colorDayPrimary</color>
+    <color name="colorDayNavMenuUnsel">@color/colorWhite</color>
+    <color name="colorDayNavMenuSel">@color/colorLightGray</color>
+    <color name="colorDayNavMenuText">@color/colorWhite</color>
+
+
+    <color name="colorNightPrimary">#222222</color>
+    <color name="colorNightPrimaryDark">#1E1E1E</color>
+    <color name="colorNightAccent">#1E1E1E</color>
+    <color name="colorNightWindowBackground">#343434</color>
+    <color name="colorNightCardView">#404040</color>
+    <color name="colorNightCardViewTextUnsel">#E7E7E7</color>
+    <color name="colorNightCardViewTextSel">#838383</color>
+    <color name="colorNightNavHeader">#252525</color>
+    <color name="colorNightNavMenuUnsel">#343434</color>
+    <color name="colorNightNavMenuSel">#2C2C2C</color>
+    <color name="colorNightNavMenuText">#858585</color>
+
+
+
+</resources>
